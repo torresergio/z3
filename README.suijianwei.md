@@ -9,3 +9,8 @@
 # 其余的编译可用cmake + make 的方式来编译。
 
 # 在VS中的编译调试尚未实验，可以参照README-CMake.md来尝试。
+
+# 生成并调试examples
+ 生成debug版本需要在mk_make.py -d 不指明-d默认是release版本。
+ 在build目录下，make examples
+ 在XCode中run的target指明cpp_example即可。

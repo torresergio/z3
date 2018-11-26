@@ -1144,6 +1144,7 @@ int main() {
 
     try {
         demorgan(); std::cout << "\n";
+        std::cout << "jewe" << "\n";
         find_model_example1(); std::cout << "\n";
         prove_example1(); std::cout << "\n";
         prove_example2(); std::cout << "\n";
