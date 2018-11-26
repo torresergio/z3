@@ -314,7 +314,7 @@ int STD_CALL main(int argc, char ** argv) {
             error("using standard input to read formula.");
         }
         if (!g_input_file && !g_standard_input) {
-            error("input file was not specified.");
+            error("input file was not specified. jewe test");
         }
         
         if (g_input_kind == IN_UNSPECIFIED) {
